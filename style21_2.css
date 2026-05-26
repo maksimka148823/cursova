@@ -1,0 +1,58 @@
+body{
+padding: 0;
+margin: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(https://themes.webuniverseua.com/courses/HTML_CSS/theme21/resources/task/water.jpg);
+background-size: cover;
+}
+.map{
+position: relative;
+width: 1000px;
+height: 600px;
+background-image: url(https://themes.webuniverseua.com/courses/HTML_CSS/theme21/resources/task/World_map.png);
+background-size: contain;
+background-repeat:no-repeat;
+border-radius: 15px;
+border: 10px double wheat;
+background-color:rgb(135,205,235,0.8) ;
+}
+a{
+position: absolute;
+}
+img{
+width: 40px;
+height: 40px;
+}
+img:hover{
+border: 2px solid red;
+border-radius: 50%;
+}
+.par{
+top: 32%;
+left: 42%;
+
+
+}
+.tokio{
+top: 35%;
+left: 77%;
+}
+.new{
+top: 39%;
+left: 23%;   
+}
+.kau{
+top: 42%;
+left: 50%;
+}
+.rio{
+top: 65%;
+left: 30%;
+}
+.uk{
+top: 32%;
+left: 49%;
+}

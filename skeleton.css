@@ -1,0 +1,12 @@
+body{
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+.dead{
+width: 2000px;
+height: 1000px;
+background-color: black;
+position: absolute;
+
+}

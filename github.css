@@ -1,0 +1,38 @@
+body{
+margin: 0;
+padding: 0;
+height: 100vh;
+background-image: url(https://themes.webuniverseua.com/courses/HTML_CSS/theme25/resources/task2/background.jpg);
+background-size: cover;
+background-position: center;
+overflow:hidden;
+position: relative;
+}
+.traffic-light{
+position: absolute;
+top: 20%;
+left: 40%;
+width: 40px;
+height: 275px;
+transform: translate(-50,-50);
+background-image: url(https://themes.webuniverseua.com/courses/HTML_CSS/theme25/resources/task2/green.png);
+background-size: cover;
+animation: changeLight 10s;
+}
+.car1{
+position: absolute;
+width: 500px;
+height: auto;
+left: -500px;
+animation:drive1 4s linear infinite ;
+animation-delay: 6s;
+}
+@keyframes changeLight{
+0%,30% {background-image: url(https://themes.webuniverseua.com/courses/HTML_CSS/theme25/resources/task2/red.png);}
+30.1%,60% {background-image:url(https://themes.webuniverseua.com/courses/HTML_CSS/theme25/resources/task2/yellow.png) ;}
+60.1%,100% {background-image: url(https://themes.webuniverseua.com/courses/HTML_CSS/theme25/resources/task2/green.png);}
+}
+@keyframes drive1{
+0% {bottom: 230px; left: -500px;}
+100%{bottom: 230px; left: 110px;}
+}
